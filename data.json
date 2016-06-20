@@ -1,0 +1,40 @@
+{
+     "button":[
+     {
+          "type":"click",
+          "name":"今日歌曲",
+          "id" : 2,
+          "key":"asdsadas"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {
+               "type":"click",
+               "name":"搜索",
+               "id" : 1,
+               "key" :"zhe shi wen zi"
+            },
+
+            {
+               "type":"click",
+               "name":"视频",
+               "id" : 3,
+               "key" :"adsadsadsajkhdkashdkqweyui"
+            },
+            {
+               "type":"url",
+               "name":"赞一下我们",
+               "id" : 4,
+               "key":"wqewqewqewqeqwewqewqsada"
+            }]
+       },
+       {
+          "type":"click",
+          "name":"今日歌曲",
+          "id" : 5,
+          "key":"adsadsadsajkhdkashdkqweyui"
+        }
+
+       ]
+ }

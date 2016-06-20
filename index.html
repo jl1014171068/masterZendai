@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="default/css/materialize.css" media="screen,projection" />
+    <!-- 自己的样式 -->
+    <link rel="stylesheet" href="default/css/style.css">
+    <meta charset="utf-8" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">个人信息</a></li>
+            <li><a href="#!">添加好友</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">切换用户</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="mdi-action-account-circle right"></i>admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 顶部导航结束 -->
+
+    <article class="zd-container">
+        <div class="row">
+            <div class="col s3 navLeft">
+                <div class="collection ">
+                    <a href="#!" class="collection-item">Alvin</a>
+                    <a href="#!" class="collection-item active">Alvin</a>
+                    <a href="#!" class="collection-item">Alvin</a>
+                    <a href="#!" class="collection-item">Alvin</a>
+                </div>
+            </div>
+            <!-- 左侧结束 -->
+            <div class="col s9 conRight">
+                <h5 class="titleL col s12">菜单管理</h5>
+                <div class="col s4 conL" id='leftMenu'>
+                    <div class="con">
+                        <h6 class="toptile ">自定义菜单 <a href="#" class="fr flow-text newFile add" title="">+</a></h6>
+                        <div class="menu">
+                            <div class="null center-align valign-wrapper">
+                                <p class="valign">尚未配置菜单
+                                    <br/>点此立即创建</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s8 conR" id='rightCon'>
+                    <div class="con">
+                        <h6 class="toptile ">自定义菜单</h6>
+                        <div class="menu">
+                            <div class="null center-align valign-wrapper">
+                            <p class="valign">你可以从左边创建一个菜单并设置响应内容。</p>
+                            <button class="btn waves-effect waves-light mar0a add newFile" type="submit" name="action">添加子级</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="default/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="default/js/materialize.min.js"></script>
+    <script type="text/javascript" src='default/js/script.js'></script>
+
+</body>
+
+</html>
